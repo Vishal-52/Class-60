@@ -5,16 +5,24 @@ body {
     font-size: 20px;
 }
 
-img {
+#game {
     transition: transform .2s;
     width: 200px;
 }
 
-img:hover {
-    transform: scale(0.8)
+#game1 {
+    transition: transform .2s;
+    width: 200px;
 }
 
-;
+#game:hover {
+    transform: scale(0.8);
+}
+
+#game1:hover {
+    transform: scale(0.8);
+}
+
 
 .line {
     height: 6px;
@@ -63,7 +71,7 @@ h2 {
     z-index: 10;
     cursor: pointer;
     color: black;
-    
+
 
 
 }
@@ -110,14 +118,34 @@ html {
     z-index: 9;
     padding-top: 100px;
 }
-    #apps {
-        height: 800px;
-        background: linear-gradient(cyan 0%, red 100%);
-        z-index: 9;
-        padding-top: 100px;
+
+#apps {
+    height: 800px;
+    background: linear-gradient(cyan 0%, red 100%);
+    z-index: 9;
+    padding-top: 100px;
 }
 
-a{
+a {
     text-decoration: none;
-    color:black;
+    color: black;
+}
+
+#profile {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#art {
+    height: 800px;
+    background: linear-gradient(teal 0%, magenta 100%);
+    z-index: 9;
+    padding-top: 100px;
+}
+    #chatbot {
+    height: 800px;
+    background: linear-gradient(maroon 0%, coral 100%);
+    z-index: 9;
+    padding-top: 100px;
 }
